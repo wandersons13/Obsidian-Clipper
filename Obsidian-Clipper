@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Obsidian Clipper
 // @namespace    https://github.com/wandersons13/Obsidian-Clipper
-// @version      0.2
+// @version      0.3
 // @description  Obsidian Web Clipper
 // @author       wandersons13
 // @match        *://*/*
@@ -184,7 +184,7 @@
         button.style.cursor = 'pointer';
 
         const icon = document.createElement('img');
-        icon.src = 'https://raw.githubusercontent.com/wandersons13/Obsidian-Clipper/main/favicon.ico';
+        icon.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAGSUExURQAAAJZv8Zhz95lz95dz95lz9Zlz95hz95dx9Jhz95Rx95hz95hz95ly95Vu85dz9phv9pdw9plz9o9v738Af5hy9plz9phz95hz9wAAAJhz95Zz95Vv8phz95hy95lw95dz95lz95hz95Zy9Jdz95Ft9Zhz95hy95dy9pRq6Zdz95dz9pZz85lz95hz9phz95lu9plz95hz95Ft2pZy95Rz9pdz8ph095dy939f35lz9phy95hy94tz55dx9phz95hz9plz9plz95lz95lt95hy9pVx9ply8phz95lm5Zdz95lz95hy9pZw95lz95Zz9ZFt8plm7phz9phz95hz95hz941x4phz95hx95hz9pdz9n8/v5dy95hz95hz95lz95hz9phz9Zdz95hy9phy95ly8pdz9plz9Zhy95dz95dx9Zhz9phy95Bu85Nr8Zlz95hy9pdy939V1Jly95hy9phz95hy95hw9ZZw95hz9phy95lz9oli65Zy95hz95hz95Nr9Zdu8Zdz95hz95l0+P///9Wpz+MAAACEdFJOUwAnyfVAN+vCStkkYfugLnk5O9wQApO+rLUBpkIp/YFGy6X+TGMc/OB0DMa8Fs2d7h7hiQdHHyr0iAhzttULXu+4ucP6I5w/KPgKgKpXIoIzFQ8+kPPYCaFId5QErYto5t9Njb/TFH5up2pRn2sXE6+VRQa03vbpNETdqZYNYqTjGiVs8qCNAqwAAAABYktHRIUV12rnAAAAB3RJTUUH6AIXDDQoBkitYAAAAZNJREFUOMt9kvk/AkEYh1+l3ES5CrHuRCiF5MjR4UyEct9C7vvm/cPtzs7U7ibvDzOf+T7PZ2f2nQGQVZZKnQ3/lEaLmPMPz1UjYh7kZ+IFhTzHIsgr/puXICldKZbp/8CGcpFXQCVilSGNVxtFjqaaWn6sSxPMlNdDgzBxjRkOgE3NLWRuVQpFIm/Rt1GzXSFYxFgFHVSwKoROMe4CGxVqFEJ3D4l77ZSjQ851fU6XEPcPMGFQLriHPMPiFiNUGJVxJ8ejMT62gJcK4xNSYZJPpnx8B/yBINvDKOFWP/nDaX6cmeWowGlSwhxJsueDpgWA0GJ4iayXI4xHtCRYgcDqWjha54gtrJNggwmb4je3gN7o9g7sCvMeE/bprgeH7IBHcCzsyQQXjZ0nTODi7T14mjxjlMZZZ0xA2/mMNpEUYhdiGkr2APHScCXpw/WNkN2SRtC6C8labRfaHDXcpwR8kF9WZA+x+FHCn5RPzuN9BrdEeEl71q9Ws4TjG6RXwqeLt71/EK7+hIz19X3z8/SYXP4CUDLej9zCqiYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjQtMDItMjNUMTI6NTI6NDArMDA6MDDVxvGOAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI0LTAyLTIzVDEyOjUyOjQwKzAwOjAwpJtJMgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNC0wMi0yM1QxMjo1Mjo0MCswMDowMPOOaO0AAAAASUVORK5CYII=';
         icon.width = '24';
         icon.height = '24';
         icon.style.display = 'block';
